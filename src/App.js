@@ -23,7 +23,7 @@ function App() {
         );
       
     } else {
-      alert("llego aqui")
+      //alert("llego aqui")
       const producto=Data.find(producto=>producto.id == productoid);
       console.log(producto)
       setProductoLista([...productolista, { ...producto, cantidad: 1 }]);
